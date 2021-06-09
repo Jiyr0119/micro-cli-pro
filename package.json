@@ -1,0 +1,24 @@
+{
+  "name": "micro-cli-pro",
+  "version": "1.0.2",
+  "description": "micro template create",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "micro-cli-pro": "bin/micro-cli"
+  },
+  "author": {
+    "name": "jiyr0119",
+    "email": "jiyr0119@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.0",
+    "ora": "^5.4.0"
+  }
+}
