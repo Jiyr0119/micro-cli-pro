@@ -17,3 +17,7 @@ yarn global add micro-cli-pro
 ```sh
 micro-cli-pro init
 ```
+
+### Description
+
+Use qiankun and vue to generate base applications and micro applications, and more template options will be provided in the future.
