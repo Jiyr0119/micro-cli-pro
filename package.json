@@ -1,28 +1,28 @@
 {
-  "name": "qiankun-cli",
+  "name": "qiankun-template-cli",
   "version": "1.0.6",
-  "description": "A CLI tool for quickly scaffolding qiankun-based micro frontend projects.",
+  "description": "micro template create",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "qiankun-cli": "./bin/micro-cli.js"
+    "qkt-cli": "./bin/micro-cli.js"
   },
   "author": {
     "name": "jiyr0119",
     "email": "jiyr0119@gmail.com"
   },
   "keywords": [
+    "creat-micro-template",
+    "react",
+    "vue",
     "qiankun",
-    "micro-frontend",
-    "cli",
-    "scaffold",
-    "generator"
+    "cli"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jiyr0119/qiankun-cli"
+    "url": "https://github.com/Jiyr0119/micro-cli-pro"
   },
   "license": "ISC",
   "dependencies": {

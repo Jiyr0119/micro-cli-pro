@@ -1,4 +1,4 @@
-# qiankun-cli
+# qkt-cli
 
 A CLI tool for quickly scaffolding qiankun-based micro frontend projects.
 
@@ -19,15 +19,15 @@ A CLI tool for quickly scaffolding qiankun-based micro frontend projects.
 ### Installation
 
 ```bash
-npm install -g qiankun-cli
+npm install -g qkt-cli
 # or
-yarn global add qiankun-cli
+yarn global add qkt-cli
 ```
 
 ### Create a new project
 
 ```bash
-qiankun-cli init
+qkt-cli init
 ```
 This will prompt you to enter details for your main project and micro project.
 
