@@ -1,23 +1,67 @@
 # micro-cli-pro
 
-a cli for quickly creating  micro templates.
+A CLI tool for quickly scaffolding qiankun-based micro frontend projects.
+
+[中文文档 (Chinese README)](./README.zh-CN.md)
+
+## Features
+
+*   **Main & Micro App Generation**: Generate both the main application and micro applications with a single command.
+*   **Template-based**: Use predefined templates for main apps (e.g., Vue-based qiankun main app) and micro apps (e.g., Vue-based qiankun sub app).
+*   **Interactive Setup**: Guided prompts to configure your project name, description, and author.
+*   **Quick Start**: Get your qiankun micro frontend project up and running in seconds.
 
 ## Usage
 
-### Install
+### Prerequisites
 
-```sh
-npm install micro-cli-pro -g
+*   Node.js (version specified if needed)
+*   npm or yarn
+
+### Installation
+
+```bash
+npm install -g micro-cli-pro
 # or
 yarn global add micro-cli-pro
 ```
 
-### Create a template
+### Create a new project
 
-```sh
-micro-cli-pro init
+```bash
+qkt-cli init
+```
+This will prompt you to enter details for your main project and micro project.
+
+### Run your projects
+
+After initialization, navigate to your main project directory and install dependencies:
+```bash
+cd <your-main-project-name>
+npm install # or yarn install
 ```
 
-### Description
+Then, navigate to your micro project directory and install dependencies:
+```bash
+cd ../<your-micro-project-name>
+npm install # or yarn install
+```
 
-Use qiankun and vue to generate base applications and micro applications, and more template options will be provided in the future.
+You can then start developing your qiankun micro frontend application!
+
+## Templates
+
+Currently supported templates:
+
+*   **Main App**: `vue-main` (A Vue-based qiankun main application)
+*   **Micro App**: `vue-micro` (A Vue-based qiankun micro application)
+
+More templates will be added in the future.
+
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines (if you have any).
+
+## License
+
+ISC
